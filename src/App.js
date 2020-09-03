@@ -262,7 +262,7 @@ class App extends Component {
 
     if (web3.networkId === this.state.MAIN_NETWORK_ID) {
       // mainnet
-      URL = "https://api.compound.finance/api/v2/account";
+      URL = "http://127.0.0.1:8080";
     } else if (web3.networkId === this.state.STAGING_NETWORK_ID) {
       // Staging
       URL = "https://api.stage.compound.finance/api/risk/v1/get_account_values";
